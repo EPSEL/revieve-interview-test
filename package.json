@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "task1": "node scripts/task1.js",
-    "task2": "node scripts/task2.js"
+    "task2": "node scripts/task2.js",
+    "task3": "node scripts/task3.js"
   },
   "author": "Edamepsel",
   "license": "ISC",
