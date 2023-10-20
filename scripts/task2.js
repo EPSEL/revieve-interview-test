@@ -1,3 +1,24 @@
+/**
+ * This script performs Task 2, which involves reading product and order data from CSV files,
+ * determining which customers bought which products, and writing the results to a new CSV file.
+ *
+ * Dependencies:
+ * - CSV utility functions: `readCsv` and `writeCsv` from '../utils/csvUtils'.
+ * - File paths: `ordersFilePath`, `productsFilePath`, `productCustomersFilePath` from '../utils/filePaths'.
+ *
+ * Steps:
+ * 1. Read product and order data from CSV files.
+ * 2. Process orders to determine which customers bought which products.
+ * 3. Prepare data for a new CSV file, showing the relationship between products and customers.
+ * 4. Write the results to a new CSV file (`productCustomersFilePath`).
+ * 5. Log a success message or catch and log any errors.
+ *
+ * Usage:
+ * Execute the script to perform Task 2 by running the command: `node task2.js`.
+ *
+ * Note: Ensure that CSV files and file paths are correctly set before execution.
+ */
+
 const {readCsv, writeCsv} = require('../utils/csvUtils');
 const {ordersFilePath, productsFilePath, productCustomersFilePath} = require('../utils/filePaths');
 

@@ -1,3 +1,25 @@
+/**
+ * This script provides two asynchronous functions, readCsv and writeCsv, to handle CSV file operations.
+ *
+ * - `readCsv`: Reads data from a CSV file and returns a promise with the parsed results.
+ *
+ * - `writeCsv`: Writes data to a CSV file using the provided header and data, utilizing the csv-writer library.
+ *
+ * Example Usage:
+ *
+ * const { readCsv, writeCsv } = require('./csvHandler');
+ *
+ * // Reading CSV
+ * const data = await readCsv('input.csv');
+ * console.log('Read CSV Data:', data);
+ *
+ * // Writing CSV
+ * const header = ['Column1', 'Column2', 'Column3'];
+ * const newData = [{ Column1: 'Value1', Column2: 'Value2', Column3: 'Value3' }];
+ * await writeCsv('output.csv', newData, header);
+ * console.log('CSV Written Successfully!');
+ */
+
 const fs = require('fs');
 const csv = require('csv-parser');
 const { createObjectCsvWriter } = require('csv-writer');

@@ -1,3 +1,25 @@
+/**
+ * This script performs Task 3, which involves reading customer, product, and order data from CSV files,
+ * calculating the total euros spent by each customer, and generating a customer ranking based on spending.
+ *
+ * Dependencies:
+ * - CSV utility functions: `readCsv` and `writeCsv` from '../utils/csvUtils'.
+ * - File paths: `customersFilePath`, `productsFilePath`, `ordersFilePath`, `customerRankingFilePath` from '../utils/filePaths'.
+ *
+ * Steps:
+ * 1. Read customer, product, and order data from CSV files.
+ * 2. Calculate the total euros spent by each customer by processing order data.
+ * 3. Prepare data for a new CSV file, showing customer rankings based on total euros spent.
+ * 4. Sort the customer ranking data in descending order of total euros spent.
+ * 5. Write the results to a new CSV file (`customerRankingFilePath`).
+ * 6. Log a success message or catch and log any errors.
+ *
+ * Usage:
+ * Execute the script to perform Task 3 by running the command: `node task3.js`.
+ *
+ * Note: Ensure that CSV files and file paths are correctly set before execution.
+ */
+
 const {readCsv, writeCsv} = require('../utils/csvUtils');
 const {customersFilePath, ordersFilePath, productsFilePath, customerRankingFilePath} = require('../utils/filePaths');
 

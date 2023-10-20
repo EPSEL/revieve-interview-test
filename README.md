@@ -1,3 +1,26 @@
+# Coding Challenge by Edamepsel
+In this repo you are going to find the implementation for this code exercise provided by Edamepsel Santos.
+
+All coding was done in Nodejs
+
+# Running the code
+
+Each of the tasks were created as a runable script as
+
+Task1 npm run task1.js
+Task2 npm run task2.js
+Task3 npm run task3.js
+
+Those can be executed independently in any order.
+
+The required files resulting for the execution of each tasks is placed on folder ../Output/
+
+# Libraries Used
+
+Nodejs Libraries for csv files handling: fs, csv-parser, csv-writer
+
+# Util Functions
+
 # Overview
 
 Choose whatever language you're most comfortable with to solve these problems.

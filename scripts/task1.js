@@ -1,3 +1,23 @@
+/**
+ * This script performs Task 1, which involves reading customer and product data from CSV files,
+ * calculating the total prices of orders, and writing the results to a new CSV file.
+ *
+ * Dependencies:
+ * - CSV utility functions: `readCsv` and `writeCsv` from '../utils/csvUtils'.
+ * - File paths: `customersFilePath`, `productsFilePath`, `ordersFilePath`, `orderPricesFilePath` from '../utils/filePaths'.
+ *
+ * Steps:
+ * 1. Read product and order data from CSV files.
+ * 2. Calculate total prices for each order based on product costs.
+ * 3. Write the results to a new CSV file (`orderPricesFilePath`).
+ * 4. Log a success message or catch and log any errors.
+ *
+ * Usage:
+ * Execute the script to perform Task 1 by running the command: `node task1.js`.
+ *
+ * Note: Ensure that CSV files and file paths are correctly set before execution.
+ */
+
 const {readCsv, writeCsv} = require('../utils/csvUtils');
 const {customersFilePath, productsFilePath, ordersFilePath, orderPricesFilePath} = require('../utils/filePaths');
 
