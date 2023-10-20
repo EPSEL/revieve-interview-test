@@ -21,6 +21,11 @@ Nodejs Libraries for csv files handling: fs, csv-parser, csv-writer
 
 # Util Functions
 
+Two functions were created to facilitate the handling of CSV files and code readeness. 
+
+csvUtils.js : Read and write csv files. 
+filePaths.js : Constants for file path to facilitate code readeness.
+
 # Overview
 
 Choose whatever language you're most comfortable with to solve these problems.
